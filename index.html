@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>lsdalka - web developer</title>
+	<link href="img/me.png" rel="icon" type="image/jpg" sizes="264x191">
+	<link href="https://fonts.googleapis.com/css?family=Simonetta" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+<div id="wrapper">
+
+	<header class="header">
+		<div class="header-items">
+			<button type="button" onclick="showPhone()"><h5 class="phone header-item">phone</h5></button>
+			<h3 class="name header-item">eleftherios dalkafoukis</h3>
+			<a href="mailto:eleftheriosdalkafoukis@gmail.com"><h5 class="email header-item">email</h5></a>
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="main-items">
+			<section class="intro main-item">
+				<div class="intro-item">
+					<h3>lsdalka</h3>
+					<h2>- web developer -</h2>
+				</div>
+			</section>
+			<section class="projects main-item">
+				<div class="samples-title">
+					<h1>Sample of my Works</h1>
+				</div>
+				<div class="projects-thumbs">
+					<div class="project-thumb">
+						<div class="angelos thumb-wrapper">
+							<a href="angelos.html">
+								<img src="img/angelos1.jpg" />
+								<h4>angelos mavraidis</h4>
+							</a>
+						</div>
+					</div>
+					<div class="project-thumb">
+						<div class="angelos thumb-wrapper">
+							<a href="mousias.html">
+								<img src="img/mousias1.jpg" />
+								<h4>mousias</h4>
+							</a>
+						</div>
+					</div>
+					<div class="project-thumb">
+						<div class="angelos thumb-wrapper">
+							<a href="tchances.html">
+								<img src="img/tchances1.jpg" />
+								<h4>tchances</h4>
+							</a>
+						</div>
+					</div>
+					<div class="project-thumb">
+						<div class="angelos thumb-wrapper">
+							<img src="img/rota.jpg" />
+							<h4>rota</h4>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+
+	<summary class="work-summary">
+		<h2>let's work together</h2>
+	</summary>
+
+	<article class="availability">		
+		<section class="freelance availability-text">
+			<h6>Do you want a <span class="orange">bespoke website</span> for your brand or yourself?<br>
+				Send your idea in my email, so that we can discuss the details.<br>
+				I will do a project analysis and<br>
+				give you a time and a price estimate
+				<br>
+				<br>
+			</h6>
+		</section>
+		<section class="hire availability-text">
+			<h6>
+				If you are working on interesting projects and want me to be a part of your team,<br>
+				I am available for <span class="orange">short or long term</span> jobs</br>
+				I live in London, but I am willing to relocate under the right circumstances.<br>
+				I would also be interested in remote working or with a more flexible arrangement.
+			</h6>
+			<h3 class="resume">
+				<a href="https://drive.google.com/file/d/0B2yEl2mHVQWYQXZ3dEdSQTVnSlk/view?usp=sharing" target="_">view my Resume</a>
+			</h3>
+		</section>
+	</article>
+
+	<footer class="footer">
+		<div class="footer-items">
+			<h4 class="about footer-item">about me</h4>
+			<h6 class="copyright footer-item">copyright © 2017</h6>
+		</div>
+	</footer>
+	
+	
+	<script type="text/javascript">
+		var x = document.querySelector('.phone');
+		function showPhone() {
+			if ( x.innerHTML = 'phone' ) {
+				x.innerHTML = '+44 770 967 7306';
+				x.style.fontSize = '18px';
+			}
+		}
+	</script>
+
+</div>
+</body>
+</html>
